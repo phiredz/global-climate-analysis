@@ -1,0 +1,17 @@
+global_climate_analysis/
+│
+├── data/
+│   ├── co2_emissions.csv        # CO2 emission data per country/year
+│   ├── global_temperatures.csv  # Temperature anomaly or average data
+│   └── sea_levels.csv           # Sea level rise data
+│
+├── notebooks/
+│   └── climate_analysis.ipynb   # Main exploratory analysis notebook
+│
+├── src/
+│   ├── data_processing.py       # Functions to clean & merge datasets
+│   ├── visualization.py         # Functions to plot graphs
+│   └── analysis.py              # High-level analysis functions
+│
+├── requirements.txt             # Required Python packages
+└── README.md                    # Project overview, setup instructions
